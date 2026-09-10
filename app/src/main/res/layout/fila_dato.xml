@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Layout reutilizable de una sola fila: "Etiqueta .......... Valor".
+    Se usa 3 veces dentro de activity_principal.xml (ID, Rol, Sesión)
+    mediante <include>, para no repetir el mismo XML tres veces.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+
+    <TextView
+        android:id="@+id/etiqueta_fila_dato"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="@color/color_texto_secundario"
+        android:textSize="14sp"
+        tools:text="Identificador de usuario" />
+
+    <TextView
+        android:id="@+id/valor_fila_dato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color_texto"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        tools:text="#4" />
+</LinearLayout>

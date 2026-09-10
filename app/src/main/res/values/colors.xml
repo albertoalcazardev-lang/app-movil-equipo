@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ===================================================================
+         PALETA OFICIAL DEL EQUIPO (extraída del PDF "Interfaces_.pdf")
+         Estos 5 colores son los únicos que usaremos en TODA la app para
+         que se vea igual sin importar qué historia haya programado cada
+         integrante del equipo.
+         =================================================================== -->
+
+    <!-- Color de ACCIÓN: se usa en botones principales (Iniciar sesión, etc) -->
+    <color name="color_accion">#B84420</color>
+
+    <!-- Color de CONFIANZA: se usa en textos/íconos que dan seguridad -->
+    <color name="color_confianza">#146356</color>
+
+    <!-- Color de FONDO: fondo general de todas las pantallas -->
+    <color name="color_fondo">#FBF8F3</color>
+
+    <!-- Color de TEXTO: color principal de todos los textos -->
+    <color name="color_texto">#233D36</color>
+
+    <!-- Color de APOYO: se usa en tarjetas suaves, chips y fondos secundarios -->
+    <color name="color_apoyo">#E4F0E8</color>
+
+    <!-- ===================================================================
+         Colores derivados (variaciones más claras/oscuras de los 5 de
+         arriba). Los necesitamos para botones deshabilitados, bordes,
+         textos secundarios, etc. No son "nuevos colores", son ayudas.
+         =================================================================== -->
+    <color name="color_texto_secundario">#6B7A75</color>
+    <color name="color_borde">#D8D2C7</color>
+    <color name="color_blanco">#FFFFFF</color>
+    <color name="color_ilustracion_fondo">#F6DCCB</color>
+    <color name="color_apoyo_circulo">#D9ECE0</color>
+
+    <!-- Colores de estado: error (rojo) -->
+    <color name="color_error_fondo">#FBE3E0</color>
+    <color name="color_error_texto">#B3261E</color>
+    <color name="color_error_icono">#B3261E</color>
+
+    <!-- Colores de estado: éxito (verde, mismo tono que "confianza") -->
+    <color name="color_exito_fondo">#146356</color>
+    <color name="color_exito_texto">#FFFFFF</color>
+</resources>
