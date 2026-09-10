@@ -1,0 +1,9 @@
+package com.example.appmovil_hu11.ui.theme
+
+import androidx.compose.ui.graphics.Color
+
+val NovaAccion = Color(0xB8, 0x44, 0x20)
+val NovaConfianza = Color(0x14, 0x63, 0x56)
+val NovaFondo = Color(0xFB, 0xF8, 0xF3)
+val NovaTexto = Color(0x23, 0x3D, 0x36)
+val NovaApoyo = Color(0xE4, 0xF0, 0xE8)
